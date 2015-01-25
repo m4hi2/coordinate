@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title> 
+		Cartesian to Polar
+	</title>
+	<meta charset='utf-8'>
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+	<header>
+		<img onclick="window.history.back()" src="img/back.png" alt="back">
+		<h1>
+			Cartesian to Polar
+		</h1>
+	</header>
+	<section>	
+			<input type="number" id="x" placeholder="Value of 'X'">
+			<input type="number" id="y" placeholder="Value of 'Y'">
+			<button onclick="c2p()" class="btn" >
+				Convert!
+			</button>		
+	</section>
+	<section class="result" >
+		<p>
+			Result:
+		</p>
+		<p id="result">
+			<!-- here will be the output -->
+		</p>
+	</section>
+	<script src="script/brain.js"></script>
+</body>
+</html>

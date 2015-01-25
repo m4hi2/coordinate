@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>about:dev</title>
+	<link rel="stylesheet" href="style/style.css">
+	<meta name="viewport" content="width=device-width">
+</head>
+<body>
+	<header>
+		<img onclick="window.history.back()" src="img/back.png" alt="back">
+		<h1>
+			about:dev
+		</h1>
+	</header>	
+	<article>
+		<p>
+			This app is developed by <span onclick="mahir()" >Mahir Labib Chowdhury</span> , a college student and a hobbiest developer.
+		<p />
+		<p>
+			While the "Backend" was managed by me, <span onclick="forhad()">Forhad Hossain</span> did the initial UI. 
+		</p>
+	</article>	
+	<section id="mail" class="btn">
+		<a href="mailto:optical.mahir@gmail.com">
+			Report A Problem!
+		</a>
+	</section>
+
+	<script>
+	function mahir () {
+		window.open("https://fb.me/skiee.mahir");
+	}
+	function forhad () {
+		window.open("https://fb.me/ethical.forhad");
+	}
+	</script>
+</body>
+</html>

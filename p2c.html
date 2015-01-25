@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>
+		Polar to Cartesian
+	</title>
+	<meta charset='utf-8'>
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+	<header>
+		<img onclick="window.history.back()" src="img/back.png" alt="back">
+		<h1>
+			Polar to Cartesian
+		</h1>
+	</header>
+	<section>		
+			<input type="number" id="r" placeholder="Value of 'r'">
+			<input type="number" id="fie" placeholder="Value of 'Θ'">
+			<button onclick="p2c()" class="btn">
+				Convert!
+			</button>
+	</section>
+	<section class="result">
+		<p>
+			Result:
+		</p>
+		<p id="result">	
+		<!-- here will be the output -->
+		</p>
+	</section>
+	<script src="script/brain.js"></script>
+</body>
+</html>

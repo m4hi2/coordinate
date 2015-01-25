@@ -1,0 +1,18 @@
+{
+  "name": "Coordinate Converter",
+  "description": "A simple app that helps you to convert: 1. From Cartesian Coordinate to Polar Coordinate  2. From Polar Coordinate to Cartesian.",
+  "launch_path": "/index.html",
+"icons": {
+    "16": "/img/icons/icon16x16.png",
+    "48": "/img/icons/icon48x48.png",
+    "60": "/img/icons/icon60x60.png",
+    "128": "/img/icons/icon128x128.png"
+  },
+  "developer": {
+    "name": "Mahir Labib Chowdhury",
+    "url": "http://rawposts.wordpress.com"
+  },
+  "orientation": [ "portrait-primary" ],
+  "version": "2.0",
+  "default_locale": "en"
+}
